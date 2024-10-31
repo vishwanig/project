@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vishwani Gaddameedi - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+</head>
+<body>
+   <!-- Header Section -->
+   <header class="header">
+    <div class="header-container">
+        <h1 class="name animate__animated animate__backInDown" >Vishwani Gaddameedi</h1>
+        <nav class="navbar animate__animated animate__bounce">
+            <ul>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#Libraries" class="nav-link">Libraries</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" class="scrollTopBtn" onclick="scrollToTop()">▲</button>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container1">
+            <div class="about-content animate__animated animate__backInLeft ">
+                <img src="my pic.jpg" alt="Your Name" class="about-img">
+            </div>
+            <div class="about-content animate__animated animate__backInRight">
+                <h2>About Me</h2>
+                <p>I am a passionate front-end developer with experience in HTML5, CSS3, JavaScript, and Bootstrap. I strive to build visually appealing and user-friendly web applications.</p>
+                <p>With hands-on experience in several projects, I am eager to apply my skills in professional environments.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="container">
+            <div class="project-item" >
+                <h3>OTT Movie platform</h3>
+                <p>Developed a dynamic UI for Movie Ott platform.</p>
+                <button onclick="showProjectDetails('project1')">View Details</button>
+            </div>
+            <div class="project-item ">
+                <h3>Yoga Tracker </h3>
+                <p>Developed a dynamic and responsive UI and templates for the yoga scheduling.</p>
+                <button onclick="showProjectDetails('project2')">View Details</button>
+            </div>
+       </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript (ES6+)</li>
+                <li>Bootstrap 5</li>
+                <li>JQuery</li>
+                <li>AJAX</li>
+                <li>MongoDB</li>
+            </ul>
+        </div>
+    </section>
+
+    <!--Libraries Section-->
+    <section id="Libraries" class="Libraries">
+        <div class="container">
+            <h2>Libraries</h2>
+            <ul>
+                <li>React</li>
+                <li>JQuery</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+            </ul>
+           
+        </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:vishwanigaddameedi7@gmail.com">vishwanigaddameedi7@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.vishwaniGaddameedi-rv99765974" target="_blank">linkedin.com/in/vishwaniGaddameedi</a></p>
+        </div>
+    </section>
+
+     <footer class="footer">
+        <p>© 2024 Vishwani Gaddameedi. All rights reserved.</p>
+    </footer> 
+
+    <!-- Project Details Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- JavaScript for Interactions -->
+    <script src="script.js"></script>
+</body>
+</html>
