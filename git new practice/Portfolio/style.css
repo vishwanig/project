@@ -183,8 +183,8 @@ body {
     background-color: #ff7e5f;
 }
 
-/* libraries section */
-.Libraries {
+/* Technologies section */
+.Technologies {
     padding: 3rem 2rem;
     background-color:  rgba(255, 255, 255, 0.9);
     border-radius: 15px;
@@ -192,13 +192,13 @@ body {
     margin: 2rem auto;
 }
 
-.Libraries h2 {
+.Technologies h2 {
     text-align: center;
     margin-bottom: 2rem;
     color: #ff7e5f;
 }
 
-.Libraries ul {
+.Technologies ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -206,7 +206,7 @@ body {
     padding: 0;
 }
 
-.Libraries ul li {
+.Technologies ul li {
     background-color: #333;
     color: #fff;
     padding: 1rem;
@@ -217,7 +217,7 @@ body {
     transition: transform 0.3s ease,background-color 0.3s ease;
 }
 
-.Libraries ul li:hover {
+.Technologies ul li:hover {
     transform: scale(1.05);
     background-color: #ff7e5f;
 }
